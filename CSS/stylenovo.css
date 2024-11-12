@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(120deg, #69fff3 25%, #3fff69 100%);
+    background: linear-gradient(120deg, #183688 25%, #4992ff 100%);
 }
 
 main{
@@ -28,19 +28,19 @@ main{
     margin-left: 15px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 3px;
 }
 
 .links a:hover {
-    color: #05e623;
-    border-top: 2px solid #05e623;
-    border-bottom: 2px solid #05e623;
+    color: #09788b;
+    border-top: 2px solid #7d95ff;
+    border-bottom: 2px solid #2c59ec;
 }
 
 .link-a-1 {
-    background-color: #09bb18;
-    border: #05e649 solid 2px;
+    background-color: #3861e7;
+    border: #053ffa solid 2px;
     color: white;
     font-weight: bold;
     padding: 15px;
@@ -49,7 +49,7 @@ main{
 
 .link-a-2 {
     background-color: transparent;
-    border: #05e649 solid 2px;
+    border: #ffffff solid 2px;
     font-weight: bold;
     padding: 5px;
 }
@@ -60,11 +60,11 @@ main{
 }
 
 .span-1 {
-    color: #0e8503;
+    color: #0084ff;
 }
 
 .span-2 {
-    color: #18e605;
+    color: #81a9ff;
 }
 
 footer {
@@ -95,17 +95,18 @@ footer {
 
 h2{
     margin-top: 20px;
+    color: white;
 }
 
 .secao-2 h2{
     font-weight: lighter;
-    color: #e605d3;
+    color: #ffffff;
     margin-top: 10px;
 }
 
 .linha-divisoria{
     width: 0.5%;
-    background-color:#05e623;
+    background-color:#ffffff;
 }
 
 .secao-1{
@@ -151,11 +152,17 @@ img{
 h1{
     text-align: center;
     padding: 15px;
+    color: white;
 }
 
 h3{
     text-align: center;
     font-size: 50px;
+    color: white;
+}
+
+h4{
+    color: white;
 }
 
 button{
@@ -170,4 +177,8 @@ button{
 .mySlides{
     width: 300px;
     height: 300px;
+}
+
+.texto{
+    color: rgb(190, 190, 190);
 }
